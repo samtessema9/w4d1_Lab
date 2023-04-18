@@ -27,7 +27,7 @@ let operation = '';
 // attach event listeners to the operators
 for (let operator of operators) {
     operator.addEventListener('click', (event) => {
-        firstNum = parseInt(display.innerText);
+        firstNum = parseFloat(display.innerText);
         display.innerText = '';
         operation = event.target.innerText;
         
@@ -36,7 +36,7 @@ for (let operator of operators) {
 
 // Attach event listener to calculate button
 document.getElementById('calculate').addEventListener('click', () => {
-    secondNum = parseInt(display.innerText);
+    secondNum = parseFloat(display.innerText);
     let answer = ''
 
     switch (operation) {
