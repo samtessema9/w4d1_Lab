@@ -15,7 +15,6 @@
     width: 400px;
     border: solid 5px black;
     margin-top: 20px;
-    /* background-color: seashell; */
     border-radius: 20px;
 }
 
@@ -32,13 +31,7 @@
     font-size: 30px;
     line-height: 30px;
     border: solid 1px black;
-    /* align-self: center; */
     padding-top: 35px;
-}
-
-
-#row-1 {
-    border: solid 1px black;
 }
 
 .number {
