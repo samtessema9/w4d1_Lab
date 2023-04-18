@@ -1,3 +1,8 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
 
 #container {
     padding: 50px;
@@ -8,8 +13,10 @@
     flex-direction: column;
     height: 600px;
     width: 400px;
-    border: solid 5px rosybrown;
+    border: solid 5px black;
     margin-top: 20px;
+    /* background-color: seashell; */
+    border-radius: 20px;
 }
 
 #container > div {
@@ -24,12 +31,21 @@
     text-align: center;
     font-size: 30px;
     line-height: 30px;
-    border: solid 2px slategray;
+    border: solid 1px black;
     /* align-self: center; */
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 
 #row-1 {
     border: solid 1px black;
+}
+
+.number {
+    background-color: #F3F2FFFF;
+}
+
+.operator, #calculate {
+    background-color: #478EFFFF;
+    color: whitesmoke;
 }
