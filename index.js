@@ -39,6 +39,7 @@ document.getElementById('calculate').addEventListener('click', () => {
     secondNum = parseFloat(display.innerText);
     let answer = ''
 
+    // Check operator and do the calculation
     switch (operation) {
         case '+':
             answer = firstNum + secondNum;
@@ -54,6 +55,7 @@ document.getElementById('calculate').addEventListener('click', () => {
             break;
     }
 
+    // Display the output 
     display.innerText = answer;
 
 })

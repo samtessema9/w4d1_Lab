@@ -2,10 +2,11 @@
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 50px;
+    background-color: black;
 }
 
 #container {
-    padding: 50px;
+    padding: 40px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -13,9 +14,10 @@
     flex-direction: column;
     height: 600px;
     width: 400px;
-    border: solid 5px black;
+    border: outset 5px black;
     margin-top: 20px;
     border-radius: 20px;
+    background-color: #3E4587DB;
 }
 
 #container > div {
@@ -41,4 +43,13 @@
 .operator, #calculate {
     background-color: #478EFFFF;
     color: whitesmoke;
+}
+
+#clear {
+    background-color: #FF5733;
+    color: white;
+}
+
+#output {
+    background-color: white;
 }
